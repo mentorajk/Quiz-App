@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="question_one">1: Which of the following are continents</string>
+    <string name="answer_for_question_one_part_a">Africa</string>
+    <string name="answer_for_question_one_part_b">Kenya</string>
+    <string name="answer_for_question_one_part_c">Canada</string>
+    <string name="answer_for_question_one_part_d">Asia</string>
+
+    <string name="question_two">2: The highest mountain of the world Mount Everest is located in which continent?</string>
+    <string name="hint">Write your answer here</string>
+
+    <string name="question_three">3: How many continents are there?</string>
+    <string name="answer_for_question_three_part_a">A: 5</string>
+    <string name="answer_for_question_three_part_b">B: 6</string>
+    <string name="answer_for_question_three_part_c">C: 7</string>
+    <string name="answer_for_question_three_part_d">D: 8</string>
+
+    <string name="question_four">4: Name the continent bellow?</string>
+    <string name="hint_for_question_four">Write your answer here</string>
+
+    <string name="question_five">5: Which of the following are not continents?</string>
+    <string name="answer_for_question_five_part_a">Africa</string>
+    <string name="answer_for_question_five_part_b">London</string>
+    <string name="answer_for_question_five_part_c">Somalia</string>
+    <string name="answer_for_question_five_part_d">Antarctica</string>
+
+    <string name="question_six">6: Which continent are Kangaroos found?</string>
+    <string name="answer_for_question_six_part_a">A: Australia</string>
+    <string name="answer_for_question_six_part_b">B: South America</string>
+    <string name="answer_for_question_six_part_c">C: Africa</string>
+    <string name="answer_for_question_six_part_d">D: Europe</string>
+
+    <string name="question_seven">7: Brazil is under which continent?</string>
+    <string name="hint_for_question_seven">Write your answer here</string>
+
+    <string name="submit_button">submit</string>
+
+    <string name="reset_button">reset</string>
+
+
+</resources>
