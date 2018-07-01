@@ -1,19 +1,22 @@
 package com.mentorajk.android.quizapp;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-
+    int numberOfCheckboxesChecked = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public int questionOne(boolean isAnswerPartAChecked, boolean isAnswerPartBChecked, boolean isAnswerPartCChecked, boolean isAnswerPartDChecked) {
+
         //add one point to the score if it is checked
         int score = 0;
         if (isAnswerPartAChecked) {
@@ -262,7 +266,11 @@ public class MainActivity extends AppCompatActivity {
 
         //display in short period of time
         Toast.makeText(MainActivity.this, message,
-                Toast.LENGTH_SHORT).show();
+                Toast.LENGTH_LONG).show();
+
+        Intent myIntent = new Intent(MainActivity.this, Main2Activity.class);
+                MainActivity.this.startActivity(myIntent);
+
     }
 
     //this method is called when the reset button is clicked
